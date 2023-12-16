@@ -5,7 +5,7 @@ class App extends React.Component {
         const obj = {
             color: 'red',
             // fontSize: '40px',
-            fontSize: 40
+            fontSize: 50
         }
         return (<>
             {/* 该写法是错误的，因为在react开发中不是html元素，不支持直接设置为字符串 */}
